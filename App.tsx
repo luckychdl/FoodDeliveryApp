@@ -59,6 +59,11 @@ function App() {
             component={SignUp}
             options={{title: 'test2'}}
           />
+          <Stack.Screen
+            name="test3"
+            component={SignUp}
+            options={{title: 'test3'}}
+          />
         </Stack.Navigator>
       )}
     </NavigationContainer>
