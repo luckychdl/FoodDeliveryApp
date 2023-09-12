@@ -50,9 +50,14 @@ function App() {
             options={{title: '로그인'}}
           />
           <Stack.Screen
-            name="SignUp"
+            name="test1"
             component={SignUp}
-            options={{title: '회원가입'}}
+            options={{title: 'test1'}}
+          />
+          <Stack.Screen
+            name="test2"
+            component={SignUp}
+            options={{title: 'test2'}}
           />
         </Stack.Navigator>
       )}
