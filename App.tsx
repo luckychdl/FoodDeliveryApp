@@ -54,11 +54,6 @@ function App() {
             component={SignUp}
             options={{title: '회원가입'}}
           />
-          <Stack.Screen
-            name="test"
-            component={SignUp}
-            options={{title: 'test'}}
-          />
         </Stack.Navigator>
       )}
     </NavigationContainer>
