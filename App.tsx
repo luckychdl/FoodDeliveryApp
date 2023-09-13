@@ -49,6 +49,7 @@ function App() {
             component={SignIn}
             options={{title: '로그인'}}
           />
+          
           <Stack.Screen
             name="test1"
             component={SignUp}
